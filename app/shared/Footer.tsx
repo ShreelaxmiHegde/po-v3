@@ -1,0 +1,31 @@
+import { CiLocationOn } from "react-icons/ci";
+import { CiMail } from "react-icons/ci";
+
+export default function Footer() {
+  return (
+    <footer className="mt-32 border-t border-neutral-900">
+      <p className="my-4 text-neutral-300">
+        Open to product engineering and backend roles and
+        Interested in building reliable products with strong engineering teams.
+      </p>
+
+      <div className="flex items-center">
+        <CiMail className="mr-2" />
+        <a
+          href="mailto:shree9@email.com"
+          className="text-neutral-300 transition-colors hover:text-sky-300"
+        >
+          shreelaxmihegde9@gmail.com
+        </a>
+      </div>
+
+      <div className="flex items-center">
+        <CiLocationOn className="mr-2" />Karnataka, Bengalore
+      </div>
+
+      <p className="mt-5 text-xs tracking-[0.2em] text-neutral-700">
+        © 2026 SHREELAXMI HEGDE
+      </p>
+    </footer>
+  )
+}
