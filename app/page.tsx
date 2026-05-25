@@ -4,6 +4,7 @@ import Footer from "./shared/Footer";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import TechStack from "./components/TechStack";
+import Ossc from "./components/Ossc"
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <Hero />
         <Projects />
         <TechStack />
+        <Ossc />
         <Navbar />
         <Footer />
       </div>
