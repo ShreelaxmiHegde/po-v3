@@ -58,6 +58,7 @@ export default function Projects() {
         "Implemented command parsing architecture",
         "Structured CLI workflow handling",
         "Configured AWS S3 remote storage integration",
+        "Supports init, add, commit, push and pull commands"
       ],
     },
   ]
@@ -71,6 +72,8 @@ export default function Projects() {
           <ProjectCard key={idx} project={project} />
         ))}
       </div>
+
+      <p className="mt-4 max-w-2xl leading-5 text-[15px] text-neutral-400">I also built a Chrome Extension which stores clipboard histories and allows to retrieve them. <u><a href="https://github.com/ShreelaxmiHegde/Clipboard-manager" className="text-sky-400/70">link</a></u></p>
     </section>
   )
 }
