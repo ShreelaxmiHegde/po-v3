@@ -1,37 +1,7 @@
-import type { Metadata } from "next";
 import "./globals.css";
+import { siteMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: "Shreelaxmi Hegde • Full-Stack Developer",
-  description:
-    "Full Stack Developer specializing in MERN. Building scalable backend systems.",
-  keywords: [
-    "Full Stack Developer",
-    "MERN Stack",
-    "React Developer",
-    "JavaScript Developer",
-    "Web Developer",
-    "Node.js Developer",
-    "Software Engineer"
-  ],
-  openGraph: {
-    title: "Shreelaxmi Hegde • Full-Stack Developer",
-    description:
-      "Full Stack Developer building modern web applications with MERN.",
-    url: "https://ShreelaxmiHegde.vercel.app",
-    siteName: "Shreelaxmi Hegde Portfolio",
-    images: [
-      {
-        url: "/dev-img.png",
-        width: 277,
-        height: 277
-      }
-    ],
-    locale: "en_US",
-    type: "website"
-  }
-};
-
+export const metadata = siteMetadata;
 
 export default function RootLayout({
   children,
@@ -40,13 +10,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" type="image/svg+xml" href="/logo.svg" />
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        />
-      </head>
       <body className="antialiased bg-white text-gray-900">
         <div className="
             fixed inset-0 
