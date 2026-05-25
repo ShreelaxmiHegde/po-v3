@@ -39,11 +39,11 @@ export default function Navbar() {
 
         <Divider />
 
-        <NavItem href="https://github.com/yourusername">
+        <NavItem href="https://github.com/ShreelaxmiHegde">
           <RiGithubLine size={18} />
         </NavItem>
 
-        <NavItem href="https://linkedin.com/in/yourusername">
+        <NavItem href="https://www.linkedin.com/in/shreelaxmi-hegde-832168358">
           <RiLinkedinLine size={18} />
         </NavItem>
 

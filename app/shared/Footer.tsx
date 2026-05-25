@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="mt-32 border-t border-neutral-900">
       <p className="my-4 text-neutral-300">
-        Open to product engineering and backend roles and
+        Open to backend/product engineering roles and
         Interested in building reliable products with strong engineering teams.
       </p>
 
