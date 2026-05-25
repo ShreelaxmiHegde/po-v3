@@ -1,5 +1,6 @@
 import "./globals.css";
 import { siteMetadata } from "@/lib/metadata";
+import { Analytics } from "@vercel/analytics/react"
 
 export const metadata = siteMetadata;
 
@@ -10,6 +11,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Analytics />
       <body className="antialiased bg-white text-gray-900">
         <div className="
             fixed inset-0 
